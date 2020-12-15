@@ -22,7 +22,7 @@ jobs:
       - name: Resolve dependencies
         run: npm ci
 
-      - name: run tasks
+      - name: running tests
         run: npm test --coverage
         env: 
           CI: true
